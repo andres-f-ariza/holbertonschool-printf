@@ -50,7 +50,7 @@ char *_itoa(int num, char *s, unsigned int base)
  * @base: base to convert
  * Return: pointer s
  */
-char *_utoa(unsigned int num, char*s, unsigned int base)
+char *_utoa(unsigned int num, char *s, unsigned int base)
 {
 	int i = 0;
 	int res;
