@@ -9,7 +9,7 @@
 int replace(char *buffer, char *s, int print_len)
 {
 	int i = 0;
-	
+
 	for (; s[i] != '\0'; ++i)
 	{
 		buffer[i] = s[i];
