@@ -47,7 +47,7 @@ int main() {
 ```
 Output:
 ```javascript
-9 o, u, x, X
+9
 ```
 ## c
 ```
