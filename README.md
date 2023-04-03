@@ -76,7 +76,7 @@ Hello, World!
 ```
 ## %
 ```
-A % is written. No argument is converted. The complete conversion specification is %%.
+% is written. No argument is converted. The complete conversion specification is %%.
 ```javascript
 int main(void) {
      _printf("%%\n");
