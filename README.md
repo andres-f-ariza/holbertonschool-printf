@@ -30,8 +30,6 @@ $ ./[File_Name] Hi friend,from C20! $
 
 ## Documentation
 
-[Documentation](https://linktodocumentation)
-
 This code defines functions that handle different format specifiers used in printf-style formatting in C.
 
 perc_case handles the % character specifier.
