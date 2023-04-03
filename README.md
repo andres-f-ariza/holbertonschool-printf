@@ -25,7 +25,7 @@ Output:
 $ ./[File_Name] Hi friend,from C20! $
 ```
 ## Flow chart
-![image](https://user-images.githubusercontent.com/119007772/229589022-c418cffb-3c88-4d06-8566-88841d152a3c.png)
+![image](https://user-images.githubusercontent.com/119007772/229633239-e90ec89e-f3ae-4934-9570-e2d40c4e4423.png)
 
 
 ## Documentation
