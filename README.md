@@ -39,7 +39,7 @@ perc_case handles the % character specifier.
 Syntaxis Prototype: int _printf(const char *format, ...); The function _printf writes output to standard output. The function writes under the control of a format string that specifies how consecutive arguments (accessed via the variable-length facilities of stdarg) are converted for output. Return Value If successful return, _printf returns the number of characters printed excluding the terminating null byte used to end output to strings. But if an output error is encountered, the function returns -1 and it does not print anything. Format of the Argument String The format string is a constant character string composed of ordinary characters which are copied unchanged to the output stream. Specification cases are introduced by the character % and ends with a conversion specifier. Conversion Specifiers The conversion specifier introduced by the character % is a character that specifies the type of conversion to be applied.
 
 The _printf function supports the following conversion specifiers: d, i The d and i argument is converted to char for decimal and integer notation.
-
+## d, i
 ```javascript
 int main() {
     _printf("%d\n", 9);
