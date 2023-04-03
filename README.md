@@ -49,15 +49,7 @@ Output:
 ```javascript
 9 o, u, x, X
 ```
-The unsigned int argument is converted to: unsigned octal (o), unsigned decimal (u), unsigned hexadecimal (x) and unsigned hexadecimal Uppercase(X). The letters abcdef are used for x conversions and the letters ABCDEF are used for X conversions. Then for each case, modded utoa pseudo functions were used.
-```javascript
-int main() {
-    _printf("%o\n", 77);
-        }
-```
-Output:
-```javascript
-115 c
+## c
 ```
 The int argument is converted to a char.
 
@@ -68,8 +60,9 @@ int main() {
 ```
 Output:
 ```javascript
-0 s
+0 
 ```
+## s
 Arguments are printed as a string.
 ```javascript
 int main() {
@@ -81,21 +74,7 @@ Output:
 ```javascript
 Hello, World!
 ```
-S Arguments are printed as a string, even if there are non-printable ASCII characters. In the following example, the code is executed with ‘%s’ and ‘%S’ to make the difference of flags visible.
-```javascript
-int main() {
-      char my_string[] = "Hello, \tWorld!\n";
-       _printf("Original string: %s\n", my_string);
-       _printf("Formatted string: %S\n", my_string);
-       return 0;
-       }
-```
-Output:
-```javascript
-Original string:
-Hello, World!
-Formatted string:
-Hello, \x09World!\x0a
+## %
 ```
 A % is written. No argument is converted. The complete conversion specification is %%.
 ```javascript
