@@ -1,29 +1,28 @@
+
 # holbertonschool-printf
 
-NAME
 The _printf program is a recreation of the C standard library function, printf, command to format and print data.
-SYNOPSIS
-The following paragraph describes how to run _printf and what command line options it takes.
-To use the _printf function, assuming the above .c dependencies have been installed, compile all .c files in the repository and include the header main.hin the entry point function.
+
+
+## Synopsis
+The following paragraph describes how to run _printf and what command line options it takes. To use the _printf function, assuming the above .c dependencies have been installed, compile all .c files in the repository and include the header main.h in the entry point function.
+
+```javascript
 #include "main.h"
 
-int main()
-{
-    _printf("Hi friend,from C20!");
+int main() { _printf("Hi friend,from C20!");
 
-    return (0);
-    }
-
+return (0);
+}
+```
 The previous code can be stored in a .c file called “main”.
 
-To compile the code, execute
-$ gcc *.c -o [File_name]
+To compile the code, execute $ gcc *.c -o [File_name].
 
 Output:
-$ ./[File_Name]
-Hi friend,from C20!
-$
-
+```javascript
+$ ./[File_Name] Hi friend,from C20! $
+```
 Description
 This code defines functions that handle different format specifiers used in printf-style formatting in C.
 
